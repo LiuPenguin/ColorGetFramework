@@ -1,0 +1,27 @@
+PODS:
+  - ColorGetFramework (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ColorGetFramework (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ColorGetFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ColorGetFramework: 2fe45ca14ab7424acb47822831741c792683d7ee
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 62d6e4ade6f0158148e70781c725a9e817df4004
+
+COCOAPODS: 1.10.1

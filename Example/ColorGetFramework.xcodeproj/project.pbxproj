@@ -61,11 +61,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		99339FC91017333B3B43F30D /* ColorGetFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ColorGetFramework.podspec; path = ../ColorGetFramework.podspec; sourceTree = "<group>"; };
+		99339FC91017333B3B43F30D /* ColorGetFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ColorGetFramework.podspec; path = ../ColorGetFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B8FCF2176B0C09F94730BDE9 /* Pods-ColorGetFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorGetFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-ColorGetFramework_Tests/Pods-ColorGetFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C2CC020B3F134556702AE72C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C2CC020B3F134556702AE72C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D12F0C4E39B88884B039D951 /* Pods-ColorGetFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorGetFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ColorGetFramework_Tests/Pods-ColorGetFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DA73EAE234FE53C6240584EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DA73EAE234FE53C6240584EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F190F0884774EFF733EB8C63 /* Pods_ColorGetFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorGetFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				D12F0C4E39B88884B039D951 /* Pods-ColorGetFramework_Tests.debug.xcconfig */,
 				B8FCF2176B0C09F94730BDE9 /* Pods-ColorGetFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,6 @@
+framework module ColorGetFramework {
+  umbrella header "ColorGetFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
