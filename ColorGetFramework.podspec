@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ColorGetFramework'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'XX'
 
 # This description is used to generate tags and improve search results.
@@ -39,5 +39,5 @@ Pod::Spec.new do |s|
    s.public_header_files = 'ColorGetFramework/Classes/**/*.h'
    s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'AFNetworking', '~> 2.3'
-   s.dependency 'LPHFoundation'
+   s.dependency 'OneLib'
 end
