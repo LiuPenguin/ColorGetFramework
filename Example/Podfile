@@ -1,3 +1,7 @@
+
+
+source = 'https://github.com/LiuPenguin/specs.git'
+
 use_frameworks!
 
 platform :ios, '9.0'

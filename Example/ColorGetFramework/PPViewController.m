@@ -8,6 +8,8 @@
 
 #import "PPViewController.h"
 
+#import <EXTools.h>
+
 @interface PPViewController ()
 
 @end
@@ -17,6 +19,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [EXTools printStringWithInput:@"你好"];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
