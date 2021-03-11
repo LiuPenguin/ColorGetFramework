@@ -1,13 +1,13 @@
 
 
-source = 'https://github.com/LiuPenguin/specs.git'
+$pp_source = 'https://github.com/LiuPenguin/specs.git'
 
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'ColorGetFramework_Example' do
-  pod 'ColorGetFramework', :path => '../'
+  pod 'ColorGetFramework', :source => $pp_source
 
   target 'ColorGetFramework_Tests' do
     inherit! :search_paths
